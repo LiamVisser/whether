@@ -1,9 +1,9 @@
 
   
 <script>
-  import WeatherCard from '../lib/components/WeatherCard.svelte';
+  import WeatherCard from '$lib/assets/components/WeatherCard.svelte';
 </script>
 
-<h1>3-Day Weather Forecast</h1>
+<h1>Today's Weather Forecast</h1>
 <WeatherCard />
 
