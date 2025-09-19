@@ -1,8 +1,8 @@
 <script>
     import { onMount } from 'svelte';
-  
     let weatherData = $state("");
     let currentTime = new Date().toLocaleTimeString();
+
   
     onMount(async () => {
       const response = await fetch(
