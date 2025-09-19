@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-  
+    import plot from 'simple-ascii-chart';
     let weatherData = null;
   
     onMount(async () => {
