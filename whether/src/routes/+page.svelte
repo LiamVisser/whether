@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+  
+<script>
+  import WeatherCard from '../lib/components/WeatherCard.svelte';
+</script>
+
+<h1>3-Day Weather Forecast</h1>
+<WeatherCard />
+
