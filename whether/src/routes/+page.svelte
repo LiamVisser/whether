@@ -1,7 +1,8 @@
-  
 <script>
+	import DarkMode from "../lib/Components/Dark_mode.svelte";
   import WeatherCard from '$lib/assets/components/WeatherCard.svelte';
 </script>
+<DarkMode/>
 
 <h1>Weather Forecast</h1>
 <a href="/">Daily temp</a>
