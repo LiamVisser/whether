@@ -24,5 +24,21 @@
   {:else}
     <p>Loading weather data...</p>
   {/if}
+
+  <style>
+    .weather-card
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 1.5rem;
+        border: 1px solid violet;
+        border-radius: 12px;
+        margin: 1rem;
+        max-width: 350px;
+        color:black;
+        background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    }
+  </style>
   
   
