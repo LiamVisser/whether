@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import DarkMode from "$lib/Components/Dark_mode.svelte";
     let weatherData = $state("");
     let currentTime = new Date().toLocaleTimeString();
 
@@ -11,6 +12,7 @@
       const data = await response.json();
       weatherData = data;
     });
+    
   </script>
   
   {#if weatherData != ""}
@@ -24,7 +26,7 @@
   {:else}
     <p>Loading weather data...</p>
   {/if}
-
+ 
   <style>
     .weather-card
     {
@@ -37,7 +39,6 @@
         color:black;
         background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
     }
   </style>
   

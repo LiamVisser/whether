@@ -1,5 +1,5 @@
 <script>
-	import DarkMode from "../lib/Components/Dark_mode.svelte";
+  import DarkMode from "../lib/Components/Dark_mode.svelte";
   import WeatherCard from '$lib/assets/components/WeatherCard.svelte';
 </script>
 <DarkMode/>
